@@ -1,4 +1,4 @@
-Hello Git
+Hello Git edited in main
 
 git init
 git add .
