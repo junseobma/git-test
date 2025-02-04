@@ -1,1 +1,9 @@
 Hello Git
+git init
+git add .
+git add [filename]
+git commit - m 'description'
+git push -u https://github.com/junseobma/git_test.git main
+git remote add origin https://github.com/junseobma/git_test.git
+git push -u origin main
+git push
