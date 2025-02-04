@@ -10,5 +10,6 @@ git push -u origin main
 git push
 
 git clone https://github.com/junseobma/git_test.git
+cd git_test
 git pull https://github.com/junseobma/git_test.git
 git pull
