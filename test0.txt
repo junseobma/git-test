@@ -13,3 +13,6 @@ git clone https://github.com/junseobma/git_test.git
 cd git_test
 git pull https://github.com/junseobma/git_test.git
 git pull
+
+git branch [branchname]
+git branch -a
