@@ -1,0 +1,8 @@
+commit 할 때 불필요한 코드를 잠깐 숨기기 유용하다.
+
+git stash
+git stash list
+git stash save '설명'
+git stash pop
+git stash drop [번호]
+git stash clear
