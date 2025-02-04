@@ -1,4 +1,4 @@
-Hello Git edited in main
+Hello Git edited in testbranch
 
 git init
 git add .
@@ -13,3 +13,8 @@ git clone https://github.com/junseobma/git_test.git
 cd git_test
 git pull https://github.com/junseobma/git_test.git
 git pull
+
+git branch [branchname]
+git branch -a
+git switch testbranch
+git switch main
