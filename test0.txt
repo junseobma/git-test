@@ -16,3 +16,5 @@ git pull
 
 git branch [branchname]
 git branch -a
+git switch testbranch
+git switch main
