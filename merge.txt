@@ -1,0 +1,57 @@
+3-way merge
+각 브랜치마다 신규 commit이 있는 경우
+두 브랜치를 합쳐서 새로운 commit을 만든다. 
+|\
+| |
+|/
+
+
+fast-forward merge
+기준 브랜치에 신규 commit이 없는 경우
+브랜치끼리 차이점이 없으므로 신규 브랜치가 main 브랜치가 된다. 
+'git merge --no-ff 브랜치명'으로 강제로 3-way merge를 할 수 있다.
+|
+|
+ \
+  |
+
+
+merge가 완료돼도 branch는 남아있다.
+'git branch -d 브랜치명'으로 merge가 완료된 브랜치 삭제
+merge를 하지 않은 브랜치는 대문자 -D 를 사용
+
+
+git rebase & merge
+3-way merge가 아니라 최신 main 브랜치로 옮겨서 fast-forward merge를 한다.
+|\
+| |
+|/
+이것을
+|
+|
+|
+ \
+  |
+ /
+이렇게
+하는 이유는 간단하고 짧은 브랜치들 조차 3-way merge를 하면 log가 지저분해져서 깔끔하게 하려고.
+단점으로는 conflict가 자주 일어난다. 
+1. 새로운 브랜치로 이동한다. git switch newbranch
+2. rebase 명령어 사용한다. git rebase main
+3. main 브랜치로 이동한다. git switch main
+4. fast-forward merge를 한다. git merge newbranch
+
+
+squash and merge
+'git merge --squash 새브랜치'라는 명령어로 사용한다. 
+새로운 브랜치에 있던 commit들을 다 합쳐서 main 브랜치에 더해준다. 
+|\
+| |
+| |
+이것을
+|
+|
+|
+|
+이렇게
+main 브랜치에서 git log를 출력했을 때 사이드에서 개발했던 자잘한 내용들이 출력되지 않아서 깔끔함.
