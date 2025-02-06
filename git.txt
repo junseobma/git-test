@@ -9,3 +9,16 @@ git commit -m 'git.txt 파일생성'
 
 git add git.txt git2.txt
 git add .
+
+git status
+git log --all --oneline
+
+git diff
+jk q
+
+git difftool
+hjkl :q :qa
+
+git difftool 커밋아이디
+
+Git History, GitLens, Git Graph 등 더 좋은것들이 있다.
