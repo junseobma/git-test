@@ -12,6 +12,7 @@ git add .
 
 git status
 git log --all --oneline
+git log --oneline --all --graph
 
 git diff
 jk q
