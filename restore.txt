@@ -1,0 +1,13 @@
+git 복구 방법
+
+git log --oneline
+git restore 파일명
+git restore --source 커밋아이디
+git restore --staged 파일명
+
+git revert 커밋아이디
+git revert HEAD
+
+git reset --hard 커밋아이디
+git reset --soft 커밋아이디
+git reset --mixed 커밋아이디
