@@ -3,4 +3,9 @@ git config --global user.name "마준섭"
 
 git init
 git add git.txt
-git commit -m '첫파일생성'
+git commit -m 'git.txt 파일생성'
+
+작업폴더 --[git add]-> staging area --[git commit]-> repository
+
+git add git.txt git2.txt
+git add .
