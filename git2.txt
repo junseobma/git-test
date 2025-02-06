@@ -1,1 +1,5 @@
 Hello git2
+
+git branch conflict
+git switch conflict
+git status
