@@ -3,3 +3,8 @@ Hello git2 - 충돌을 위해 수정
 git branch conflict
 git switch conflict
 git status
+
+git merge conflict
+git add .
+git commit -m 'conflict 해결완료'
+git log --oneline --all --graph
