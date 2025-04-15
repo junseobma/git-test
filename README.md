@@ -1,6 +1,6 @@
 # Git 사용법 정리
 
-이 레포지토리는 코딩애플의 Git & GitHub 강의([링크](https://codingapple.com/course/git-and-github/))를 바탕으로 작성되었습니다.
+이 레포지토리는 코딩애플의 [**Git & GitHub 강의**](https://codingapple.com/course/git-and-github/)를 바탕으로 작성되었습니다.
 
 Git의 주요 명령어를 실습하며 정리한 학습용 자료입니다.  
 각 `.txt` 파일은 특정 Git 기능 또는 명령어를 다루고 있습니다.  
